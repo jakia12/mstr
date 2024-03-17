@@ -15,7 +15,9 @@
   <!-- Identity -->
   <title>$MSTR</title>
   
-  <link rel="shortcut icon" href="./images/meme.jpg" type="image/x-icon" />
+  <!-- <link rel="shortcut icon" href="./images/meme.jpg" type="image/x-icon" /> -->
+  <link rel="shortcut icon" href="./images/fav.ico" type="image/x-icon" sizes="65x65">
+  <!-- <link rel="icon" type="image/x-icon" href="/images/fav.ico" sizes="65x65"> -->
 
   <!-- Vendor CSS -->
   <link rel="stylesheet" href="assets/css/vendor/preloader.min.css" />
@@ -58,6 +60,14 @@
       background-size: 200% 100%;
       animation: wave-animation 4s infinite linear;
     }
+
+    .colored-heading {
+    background-image: linear-gradient(to right, rgb(255, 0, 255), yellow, rgb(13, 251, 255), green, red );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+  }
   
     @keyframes wave-animation {
       0% {
@@ -68,6 +78,8 @@
       }
     }
   </style>
+
+
 
 </head>
  
@@ -81,8 +93,8 @@
         <!-- Brand -->
         <a class="navbar-brand" href="/">
           <!-- <div class="site-title">Site Title</div> -->
-
-          <span class="logo-after-text">$MSTR</span>
+            <img style="width: 120px;" src="./images/logo.png" alt="">
+          <!-- <span class="logo-after-text colored-heading">$MSTR</span> -->
         </a>
         <!-- Menu toggle -->
         <div id="menu-toggle" class="menu-toggle is-inactive magnetic-effect scheme-3 primary">
@@ -119,7 +131,7 @@
               <div class="menu-grid-label top">
                 <span class="label-vertical">
                   <span class="label-line gray"></span>
-                  <span class="label-text gray">THE CARDANO + ETH PUPPY</span>
+                  <span class="label-text gray">MICROSTRATEGY | $MSTR</span>
                 </span>
               </div>
               <!-- Label -->
@@ -133,7 +145,7 @@
               <div class="menu-grid-main">
                 <a href="https://twitter.com/OfficialMSTR" target="_blank"
                   class="menu-grid-main-item menu-item">TWITTER/X</a>
-                <a href="chartlink"
+                <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x2bf6aa3dc992675f137c1393558c7c22a03e1ef6?t=1710419118415"
                   target="_blank" class="menu-grid-main-item menu-item">DEXTOOLS</a>
                 <a href="https://t.me/MicroStrategyPortal" target="_blank"
                   class="menu-grid-main-item menu-item">TELEGRAM</a>
@@ -167,16 +179,18 @@
               <!-- Intro -->
               <div class="basic-intro mb-2">
                 <h2 class="title text-style-5">
-                  <span class="text-1 d-block text-outline gray-75" data-lax="inertia-top">MICROSTRATEGY</span>
-                  <span class="text-2 d-block black">Best coin in <mark
-                      class="animated-underline primary-25">crypto</mark></span>
+                  <span class="text-1 d-block text-outline gray-75 colored-heading" data-lax="inertia-top">MICROSTRATEGY</span>
+                  <span class="text-2 d-block black">MICHAEL SAYLOR'S FAVORITE  <mark
+                      class="animated-underline primary-25">MEMECOIN</mark></span>
                 </h2>
                 <div class="description gray">
-                  <p>Welcome to the exciting world of $MSTR. The new era of $MSTR has began.</p>
+                  <p style="color: white; font-size: 20px; font-weight: 600;">
+                    In the vast realm of the mythical interweb, the legendary MSTR club was made by Michael Saylor. 
+                    He holds the power of mooning memecoins and BTC with his left small toe to the moon and also has a favorite phrase that he would always write in community groups.. the legendary phrase.. "wen marketing"</p>
                 </div>
               </div>
               <!-- Button -->
-              <a href="chartlink" target="_blank"
+              <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x2bf6aa3dc992675f137c1393558c7c22a03e1ef6?t=1710419118415" target="_blank"
                 class="button arrow-button next scheme-1 primary-25">
                 <span class="arrow">
                   <span class="item"></span>
@@ -216,7 +230,7 @@
               <!-- Intro -->
               <div class="basic-intro mb-2">
                 <h2 class="title text-style-5">
-                  <span class="text-1 d-block text-outline gray-75" data-lax="inertia-top">TOKENOMICS</span>
+                  <span class="text-1 d-block text-outline gray-75 colored-heading" data-lax="inertia-top">TOKENOMICS</span>
                   <span class="text-2 d-block black">Perfect to <mark
                       class="animated-underline primary-25">moon</mark>.</span>
                 </h2>
@@ -226,7 +240,7 @@
                 </div>
               </div>
               <!-- Button -->
-              <a href="buylink" target="_blank"
+              <a href="https://app.uniswap.org/explore/tokens/ethereum/0x3ef737925db23f5f79a52c3eb73be16c5ee05263" target="_blank"
                 class="button arrow-button next scheme-1 tertiary">
                 <span class="arrow">
                   <span class="item"></span>
@@ -250,7 +264,7 @@
               <!-- Intro -->
               <div class="basic-intro mb-2">
                 <h2 class="title text-style-5">
-                  <span class="text-1 d-block text-outline gray-75" data-lax="inertia-top">LIQUIDITY</span>
+                  <span class="text-1 d-block text-outline gray-75 colored-heading" data-lax="inertia-top">LIQUIDITY</span>
                   <span class="text-2 d-block black">The liquidity is <mark
                       class="animated-underline tertiary-25">BURNED</mark>.</span>
                 </h2>
@@ -333,9 +347,9 @@
   <footer id="footer" class="shock-footer scheme-1 primary">
     <div class="bottom-bar">
       <div class="text">© 2024 - All rights reserved. <a
-          href="chartlink"
-          class="link gray primary-hover"><u>CA: xxxxxxxxxxxxxxxxxxxxxxxx</u></a> - <a
-          href="contract"
+          href="https://www.dextools.io/app/en/ether/pair-explorer/0x2bf6aa3dc992675f137c1393558c7c22a03e1ef6?t=1710419118415"
+          class="link gray primary-hover"><u>CA: 0x3eF737925Db23f5f79A52C3EB73BE16c5eE05263 </u></a> - <a
+          href="https://etherscan.io/address/0x3eF737925Db23f5f79A52C3EB73BE16c5eE05263#code"
           class="link gray primary-hover"><u>$MSTR</u></a>.</div>
     </div>
   </footer>
